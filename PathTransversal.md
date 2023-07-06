@@ -1,8 +1,6 @@
 # Directory Traversal | Guía completa
 
-## Directory Traversal, también conocido como Path Traversal, es una vulnerabilidad que permite a un atacante acceder a archivos y directorios fuera de la ubicación prevista. Esto ocurre cuando una aplicación no valida adecuadamente las entradas del usuario y permite caracteres especiales o secuencias de escape en las rutas de archivo. Los atacantes pueden aprovechar esto para navegar a través de directorios, leer archivos confidenciales e incluso ejecutar código malicioso.
-
-Ahora, pasemos a cada laboratorio:
+ Directory Traversal, también conocido como Path Traversal, es una vulnerabilidad que permite a un atacante acceder a archivos y directorios fuera de la ubicación prevista. Esto ocurre cuando una aplicación no valida adecuadamente las entradas del usuario y permite caracteres especiales o secuencias de escape en las rutas de archivo. Los atacantes pueden aprovechar esto para navegar a través de directorios, leer archivos confidenciales e incluso ejecutar código malicioso.
 
 Lab #1: File path traversal, simple case
 En este laboratorio, se presenta un caso simple de Directory Traversal. El objetivo es acceder a un archivo que se encuentra en una ubicación no deseada. Por ejemplo, si el archivo deseado está en /var/www/html/images/ y la aplicación no valida correctamente la entrada del usuario, un atacante podría proporcionar ../secrets/important.txt como entrada y obtener acceso al archivo.
