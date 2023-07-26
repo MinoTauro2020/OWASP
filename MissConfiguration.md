@@ -27,3 +27,6 @@ Una mala configuración de SSL/TLS puede dejar la aplicación vulnerable a ataqu
 
 ## 10. Exposición de endpoints y API:
 Exponer endpoints o API innecesarios puede facilitar el acceso y la explotación de funciones sensibles.
+
+## otros
+Errores de la aplicacion - Falta Politicas en las cabeceras - Cookies - Archivos expuesto como .htaccess
